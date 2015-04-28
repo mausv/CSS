@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Fonts</title>
+
+	<style>
+		body{
+			/*You can combine percents and em*/
+			font-size: 100%;
+		}
+
+		p.serif{
+			/*The first font is the first option, if the browser doesn't support it, it'll pick another one from the list.
+			If the name contains more than one word, it must be in quotes.*/
+			font-family: "Times New Roman", Times, serif;
+		}
+
+		p.sansserif{
+			/*As a good habit, you should always use quotes nonetheless.*/
+			font-family: "Arial", Helvetica, sans-serif;
+		}
+
+		p.normal{
+			font-style: normal;
+		}
+
+		p.italic{
+			font-style: italic;
+		}
+
+		p.oblique{
+			font-style: oblique;
+		}
+
+		h1{
+			/*font-size: 40px;*/
+			font-size: 2.5em;/*40p/16=2.5em*/
+		}
+
+		h2{
+			/*font-size: 30px;*/
+			font-size: 1.875em;
+		}
+
+		p{
+			/*font-size: 14px;*/
+			font-size: 0.875em;
+			font-weight: 900;/*normal, lighter, bold, or a number(900 is max)*/
+		}
+	</style>
+</head>
+<body>
+	<h1>CSS font-family</h1>
+	<p class="serif">This is a paragraph, shown in the Times New Roman font.</p>
+	<p class="sansserif">This is a paragraph, shown in the Arial font.</p>
+
+	<hr>
+
+	<p class="normal">This is a paragraph in normal style.</p>
+	<p class="italic">This is a paragraph in italic style.</p>
+	<p class="oblique">This is a paragraph in oblique style.</p>
+
+	<h2>This is heading 2</h2>
+</body>
+</html>
