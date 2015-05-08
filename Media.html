@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Media</title>
+	<style type="text/css">
+
+		body{
+			margin: 0;
+			width: 100%;
+		}
+
+		ul{
+			list-style-type: none;
+			margin: 0;
+			width: 100%;
+			padding: 0;
+		}
+
+		li{
+			float: left;
+			width:25%;
+			background-color: #1990EA;
+		}
+
+		a, a:visited, a:hover{			
+			display: block;
+			text-decoration: none;
+			color: white;
+			text-align: center;
+		}
+
+		.navbar{
+			width: 100%;
+		}
+
+		.body {
+			text-align: center;
+		}
+
+		div.img img{
+			display: inline;
+			margin: 5px;
+			border: 1px solid #ffffff;
+			height: 100px;
+			width: 120px;
+		}
+
+		div.img {
+			float:left;			
+		    height: auto;
+		    width: auto;
+			margin: 5px;
+			padding: 5px;
+			text-align: center;
+			border: 1px solid blue;
+		}
+
+		div.desc {
+			width: 120px;
+			text-align: center;
+			font-weight: normal;
+			margin: 5px;
+		}
+
+		div.img a:hover img{
+			border: 1px solid blue;
+		}
+
+		div.break {
+			clear:both;
+		}
+
+		div.opacity img {
+			opacity: 0.4;
+			float:left;
+			margin: 5px;
+		}
+		div.opacity img:hover {
+			opacity: 1.0;
+		}
+
+		div.background{
+			background: url("Images/klematis_small.jpg") repeat;
+			border: 2px solid black;
+		}
+
+		div.transbackground{
+			background-color: white;
+			margin: 30px;
+			border: 1px solid blue;
+			opacity: 0.6;
+		}
+
+		div.transbackground p{
+			margin: 5%;
+			font-weight: bold;
+			color: #000000;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="navbar">
+
+	 	<ul>
+		  <li><a href="#default.asp">Home</a></li>
+		  <li><a href="#news.asp">News</a></li>
+		  <li><a href="#contact.asp">Contact</a></li>
+		  <li><a href="#about.asp">About</a></li>
+		</ul> 
+
+	</div>
+
+	<div class="body">
+
+		<div class="img">
+
+			<a href="#plant"><img src="Images/klematis_small.jpg"></a>
+
+			<div class="desc">
+
+				<p>Add a description of the image here</p>
+
+			</div>
+
+		</div>
+
+		<div class="img">
+
+			<a href="#plant"><img src="Images/klematis2_small.jpg"></a>
+
+			<div class="desc">
+
+				<p>Add a description of the image here</p>
+
+			</div>
+
+		</div>
+
+		<div class="img">
+
+			<a href="#plant"><img src="Images/klematis3_small.jpg"></a>
+
+			<div class="desc">
+
+				<p>Add a description of the image here</p>
+
+			</div>
+
+		</div>
+
+		<div class="img">
+
+			<a href="#plant"><img src="Images/klematis4_small.jpg"></a>
+
+			<div class="desc">
+
+				<p>Add a description of the image here</p>
+
+			</div>
+
+		</div>
+
+		<div class="break"></div>
+
+		<div class="opacity">
+
+			<a href="#opac"><img src="Images/klematis4_small.jpg"></a>
+
+		</div>
+
+		<div class="opacity">
+
+			<a href="#opac"><img src="Images/klematis4_small.jpg"></a>
+
+		</div>
+
+		<div ="break"></div>
+
+		<div = "background">
+			<div class="transbackground">
+				<p>This is some text.</p>
+			</div>
+		</div>	
+
+	</div>
+
+</body>
+</html>
